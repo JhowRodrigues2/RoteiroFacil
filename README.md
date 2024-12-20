@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# Roteiros Fácil - Gerador de Roteiros de Viagem com IA
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Roteiros Fácil** é um aplicativo desenvolvido com **React Native** e **Expo** que gera roteiros personalizados para viagens utilizando **Gemini AI**. O aplicativo solicita o nome da cidade e o número de dias da viagem e cria um roteiro detalhado com base em informações turísticas fornecidas pela IA.
 
-## Get started
+## Tecnologias Utilizadas
 
-1. Install dependencies
+- **React Native**: Framework para desenvolvimento de aplicativos móveis nativos.
+- **Expo**: Ferramenta para facilitar o desenvolvimento e a construção de aplicativos React Native.
+- **Gemini AI**: Plataforma de inteligência artificial utilizada para gerar conteúdo de roteiros personalizados.
+- **@react-native-community/slider**: Componente para controle deslizante (slider) para definir o número de dias de viagem.
+- **Material Icons**: Biblioteca de ícones para a interface do usuário.
+- **react-native-dotenv**: Biblioteca para carregar variáveis de ambiente de um arquivo `.env`.
 
-   ```bash
-   npm install
-   ```
+## Funcionalidades
 
-2. Start the app
+- **Geração de Roteiros**: O aplicativo gera um roteiro para uma viagem com base na cidade e número de dias informados.
+- **Personalização**: O usuário pode ajustar o número de dias de viagem com um controle deslizante.
+- **Integração com Gemini AI**: A inteligência artificial cria um roteiro detalhado com locais turísticos, oferecendo uma experiência personalizada.
+- **Interface Intuitiva**: A interface é simples e direta, permitindo uma experiência de usuário fluida.
 
-   ```bash
-    npx expo start
-   ```
+## Como Funciona
 
-In the output, you'll find options to open the app in a
+1. O usuário informa o nome da cidade de destino.
+2. O usuário ajusta o número de dias da viagem usando um controle deslizante.
+3. Ao clicar em "Gerar Roteiro", a IA do Gemini gera um roteiro detalhado com pontos turísticos para os dias informados.
+4. O roteiro é exibido na tela, em tópicos, detalhando o que fazer em cada dia da viagem.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Pré-requisitos
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Antes de rodar o projeto, certifique-se de ter os seguintes requisitos:
 
-## Get a fresh project
+- Node.js (preferencialmente versão 16 ou superior)
+- Expo CLI
 
-When you're ready, run:
+## Como Rodar o Projeto
+
+### 1. Clonar o repositório
+
+Clone o repositório para sua máquina local:
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/SEU_USUARIO/roteiros-facil.git
